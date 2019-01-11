@@ -25,10 +25,10 @@
 3. navigate to the newly created branch:"git checkout branchname."
 4. to create and navigate to the branch:"git checkout -b branchname."
 5. edit or create the files.
-6. add the file to the branch:"git add <filename>."
+6. add the file to the branch:"git add filename."
 7. commit the file:"git commit -m "message"."
-8. push it to remote repo:"git push origin <branchname>."
+8. push it to remote repo:"git push origin branchname."
 9. checkout to master branch:"git checkout master."
-10. merge the branch with master branch:"git merge master <branchname>."
+10. merge the branch with master branch:"git merge master branchname."
 1. push to remote:"git push origin master."
 
