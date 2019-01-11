@@ -102,6 +102,9 @@
 |cut -d : -f1 /etc/group|list application groups|
 |adduser username|add new user|
 |sudo usermod -a -G groupname username|add user to existing respective group|
+|sudo addgroup groupname|add a new group|
+|sudo delgroup groupname|deletes an existing group|
+|sudo adduser username groupname|add a user to group|
 
 
 
