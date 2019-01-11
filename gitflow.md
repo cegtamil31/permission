@@ -20,7 +20,7 @@
 6. git push -u origin master
 
 # Cloning the repository and using it.
-1. "git clone link"
+1. "git clone repo-link"
 2. to create the branch:"git branch branchname."
 3. navigate to the newly created branch:"git checkout branchname."
 4. to create and navigate to the branch:"git checkout -b branchname."
@@ -32,4 +32,3 @@
 10. merge the branch with master branch:"git merge master branchname."
 1. push to remote:"git push origin master."
 12. push/pull without credentials run this command once "git config credential.helper store"
-
