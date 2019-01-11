@@ -84,14 +84,14 @@
 
 | COMMAND | DESCRIPTION |
 | --- | --- |
-|4|read permission|
-|2|write permission|
-|1|execute permission|
-|0|no permission|
 |7|read,write,execute permission|
 |6|read,write permission|
 |5|read,execute permission|
+|4|read permission|
 |3|write,execute permission|
+|2|write permission|
+|1|execute permission|
+|0|no permission|
 |-rwx-rw-r-- username groupname|(rwx)-user permission,(rw)-group permission,(r)-others|
 |chmod u(+,-,=)(r/w/x)/g(+,-,=)(r/w/x)/o(+,-,=)(r/w/x) (file name/folder name)|change modes for user,groups & others|
 |chmod 755(eg) (file name/folder name)|(7)-user permission,(5)-group permission,(5)-other|
