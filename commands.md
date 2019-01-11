@@ -80,7 +80,7 @@
 |$|navigates to the end of the text of the current line|
 |? (pattern)|backward pattern search|
 
-##USER AND GROUP PERMISSION MODES
+## USER AND GROUP PERMISSION MODES
 
 | COMMAND | DESCRIPTION |
 | --- | --- |
