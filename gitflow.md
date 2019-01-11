@@ -21,9 +21,9 @@
 
 # Cloning the repository and using it.
 1. "git clone link"
-2. to create the branch:"git branch <branchname>."
-3. navigate to the newly created branch:"git checkout <branchname>."
-4. to create and navigate to the branch:"git checkout -b <branchname.>"
+2. to create the branch:"git branch branchname."
+3. navigate to the newly created branch:"git checkout branchname."
+4. to create and navigate to the branch:"git checkout -b branchname."
 5. edit or create the files.
 6. add the file to the branch:"git add <filename>."
 7. commit the file:"git commit -m "message"."
