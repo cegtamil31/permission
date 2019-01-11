@@ -31,4 +31,5 @@
 9. checkout to master branch:"git checkout master."
 10. merge the branch with master branch:"git merge master branchname."
 1. push to remote:"git push origin master."
+12. push/pull without credentials run this command once "git config credential.helper store"
 
