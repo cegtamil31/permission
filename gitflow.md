@@ -1,4 +1,4 @@
-#Remote Git Usage
+# Remote Git Usage
 
 1. Signup using google account in github.
 2. Create a repository as public/private(by default public).
@@ -9,9 +9,9 @@
 7. Create new pull request to merge.
 8. Merge pull request and confirm.
  
-#Command line or Terminal Git Usage
+# Command line or Terminal Git Usage
 
-#Creating the repository 
+# Creating the repository 
 1. touch README.md
 2. git init
 3. git add README.md
@@ -19,7 +19,7 @@
 5. git remote add origin git@github.com:username/<reponame>.git
 6. git push -u origin master
 
-#Cloning the repository and using it.
+# Cloning the repository and using it.
 1. "git clone <link>"
 2. to create the branch:"git branch <branchname>."
 3. navigate to the newly created branch:"git checkout <branchname>."
