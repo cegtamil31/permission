@@ -92,9 +92,10 @@
 |6|read,write permission|
 |5|read,execute permission|
 |3|write,execute permission|
-|-rwx-rw-r--|(rwx)-user permission,(rw)-group permission,(r)-others|
+|-rwx-rw-r-- username groupname|(rwx)-user permission,(rw)-group permission,(r)-others|
 |chmod u(+,-,=)(r/w/x)/g(+,-,=)(r/w/x)/o(+,-,=)(r/w/x) (file name/folder name)|change modes for user,groups & others|
 |chmod 755(eg) (file name/folder name)|(7)-user permission,(5)-group permission,(5)-other|
+|chown username:groupname (foldername)/(filename)|change the ownership of the file/folder|
 |users|list users|
 |cut -d : -f1 /etc/passwd|list application users|
 |groups|list groups|
