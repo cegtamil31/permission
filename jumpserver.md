@@ -8,7 +8,7 @@
 4. now we cannot access ssh of client directly.
 4. now connect to host instance to access client.
  
-## AMONG MULTIPLE NETWORKS
+### AMONG MULTIPLE NETWORKS
 
 1. create the new vpc network.
 2. create the new VM instance with the new network without external IP.
