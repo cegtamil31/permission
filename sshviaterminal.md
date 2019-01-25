@@ -1,4 +1,4 @@
-#SSH VIA TERMINAL UBUNTU
+# SSH VIA TERMINAL UBUNTU
 
 1. execute "ssh-keygen -b 4096".
 2. navigate to ".ssh".
@@ -6,7 +6,7 @@
 4. paste it in instance "ssh-keys" box in the VM or navigate to ".ssh" then crea   te "authorized_keys".
 5. now connect to VM via terminal using "ssh username@external_ip".
 
-#SSH PORTCHANGE
+# SSH PORTCHANGE
 
 1. navigate to "/etc/ssh".
 2. open ".sshd_conf" change the port "2222(or any port no)".
@@ -16,7 +16,7 @@
    iii)specified port-tcp:2222(or port no changed in sshd_conf)
    iv)click  create.
 
-#IPWHITELISTING
+# IPWHITELISTING
 
 1. to block particular ip or range of ip to specified port or multiple port
 2. here we whitelist for ssh
